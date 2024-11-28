@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+}
+h2{
+    color: orange;
+}
+@media print{
+    h1{color: purple}
+    h2{color: red}
+}
+
+@media all and (max-width 500px){
+    h1{ color: orange}
+    h2{ color: green;}
+}
